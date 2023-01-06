@@ -1,0 +1,64 @@
+.activity {
+  background-color: #0c0c31;
+  color: #fff;
+  padding: 92px 0;
+}
+.activity-left-items {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.activity-content {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+.purdah {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.g-activity {
+  position: relative;
+}
+.activity-left-items-1 {
+  background-image: url("https://eohokkaido.org/wp-content/themes/eohokkaido/img/forum.png");
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: cover;
+}
+.activity-left-items-2 {
+  background-image: url("https://eohokkaido.org/wp-content/themes/eohokkaido/img/meeting.png");
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: cover;
+}
+.activity-left-items-3 {
+  background-image: url("https://eohokkaido.org/wp-content/themes/eohokkaido/img/mentor.png");
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: cover;
+}
+.activity-left-items-4 {
+  background-image: url("https://eohokkaido.org/wp-content/themes/eohokkaido/img/seminar.png");
+  background-repeat: no-repeat;
+  background-clip: cover;
+  background-size: cover;
+}
+.button-about-hide-activity {
+  margin-top: 10px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .activity {
+    padding: 72px 10px;
+  }
+  .activity-content {
+    font-size: 1.5rem;
+  }
+}

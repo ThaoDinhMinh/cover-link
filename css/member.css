@@ -1,0 +1,58 @@
+.member {
+  padding: 92px 0;
+}
+.image-member {
+  width: 100%;
+}
+.member-img {
+  position: relative;
+}
+.member-infor {
+  cursor: pointer;
+}
+
+.member-name {
+  position: absolute;
+  bottom: 0;
+  background-color: #0c0931;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 4px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.g-text-member {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.member-hd {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ff325f;
+}
+.member-ct {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.text-member {
+  font-size: 1rem;
+}
+#member-all {
+  margin: 0 -20px;
+}
+
+@media (max-width: 992px) {
+  .member {
+    padding: 72px 10px;
+  }
+  .member-hd {
+    font-size: 1.25rem;
+  }
+  .member-ct {
+    font-size: 0.8rem;
+  }
+  .text-member {
+    font-size: 0.9rem;
+  }
+}
