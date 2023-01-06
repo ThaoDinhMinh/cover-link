@@ -1,0 +1,99 @@
+.our-visions {
+  background-image: url("../img/vision.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  padding: 72px;
+}
+p,
+ul,
+span,
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+.visions-title {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.visions-tt-jp {
+  color: #ff335f;
+  padding: 24px 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.visions-right {
+  margin: -20px 0;
+}
+.visions-right-item {
+  background-color: #0c0c31;
+  color: #fff;
+  margin: 20px 0;
+  padding: 32px 10px;
+}
+.visions-content {
+  padding-left: 20px;
+  border-left: 1px solid #fff;
+}
+
+.visions-ct-name {
+  list-style: disc;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.ul-visions {
+  padding-left: 20px;
+}
+.visions-ct {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.numbers {
+  margin-right: -25px;
+}
+.width-visions-number {
+  width: 55px;
+}
+
+.width-visions-content {
+  width: calc(100% - 55px);
+}
+
+.span-number {
+  font-size: 2rem;
+  line-height: 1px;
+  font-style: italic;
+  margin: 0 -2px;
+  letter-spacing: 0;
+}
+@media (max-width: 1056px) {
+  .visions-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .visions-right,
+  .visions-left {
+    width: 100%;
+  }
+  .our-visions {
+    margin: 0 -40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .our-visions {
+    padding: 72px 10px;
+    margin: 0;
+  }
+  .visions-title {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .visions-tt-jp {
+    text-align: center;
+  }
+}

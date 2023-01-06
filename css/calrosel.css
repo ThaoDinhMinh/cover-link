@@ -1,0 +1,34 @@
+html {
+  font-size: 16px;
+}
+.carol-sel {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+.image-cal {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.text-center-carosel {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 100;
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+.text-banner {
+  font-weight: 700;
+  line-height: 64px;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 992px) {
+  .text-banner {
+    font-size: 2rem;
+  }
+} ;
