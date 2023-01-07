@@ -85,6 +85,10 @@ p {
 .image-map {
   position: relative;
   display: none;
+  z-index: 1000;
+  height: 90vh;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .color-mean-grup {
@@ -104,10 +108,12 @@ p {
   background-color: #0c0c0c;
   font-size: 1.2rem;
   text-align: center;
+  margin-bottom: 6px;
 }
 .mean-name {
   text-align: center;
   font-size: 0.9rem;
+  padding: 4px 0;
 }
 picture {
   display: flex;
@@ -167,6 +173,7 @@ picture {
   top: 41%;
   left: 41%;
 }
+
 @media (max-width: 992px) {
   .image {
     width: 118px;
@@ -226,6 +233,9 @@ picture {
   html {
     font-size: 14px;
   }
+  .mean-name {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -250,5 +260,9 @@ picture {
   }
   .g-location {
     padding: 10px;
+  }
+  .head-name {
+    font-size: 0.875rem;
+    padding: 8px 0;
   }
 }

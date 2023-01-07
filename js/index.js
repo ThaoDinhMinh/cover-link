@@ -11,5 +11,4 @@ const LocalBtn = document.querySelector(".local");
 
 LocalBtn.addEventListener("click", () => {
   document.querySelector(".image-map").classList.toggle("d-block");
-  console.log("chay");
 });

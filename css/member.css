@@ -41,6 +41,41 @@
 #member-all {
   margin: 0 -20px;
 }
+.infor-show {
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: fixed;
+}
+.close-infor {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: gray;
+}
+.show-member {
+  width: 800px;
+  background-color: white;
+  padding: 40px 20px;
+  margin: auto;
+  position: relative;
+}
+.text-mean-member {
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 50px 0 0 20px;
+}
+.close-infor:hover {
+  color: rgb(62, 61, 61);
+}
 
 @media (max-width: 992px) {
   .member {
@@ -53,6 +88,19 @@
     font-size: 0.8rem;
   }
   .text-member {
+    font-size: 0.9rem;
+  }
+  .show-member {
+    width: 90%;
+    overflow-y: scroll;
+    height: 90vh;
+  }
+  .close-infor {
+    top: 8%;
+    right: 10%;
+  }
+  .text-mean-member {
+    padding: 20px 0 0 20px;
     font-size: 0.9rem;
   }
 }

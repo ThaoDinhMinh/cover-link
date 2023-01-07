@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/calrosel.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/message.css" />
@@ -71,70 +71,72 @@
           class="map-jp-center d-flex justify-content-center align-items-center"
         >
           <div class="image-map">
-            <picture>
-              <source
-                media="(min-width:768px)"
-                srcset="
-                  https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_L.png
-                "
-              />
-              <source
-                media="(min-width:465px)"
-                srcset="
-                  https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_S.png
-                "
-              />
-              <img
-                src="https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_S.png"
-                alt="map location"
-                style="width: auto"
-              />
-            </picture>
-            <div class="color-mean-grup">
-              <div class="color-mean">
-                <div class="color-mean-item color-location-1">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-black">GLOBAL</h3>
-                    <p class="mean-name">Tokyo Metropolitan</p>
+            <div class="g-image-map">
+              <picture>
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_L.png
+                  "
+                />
+                <source
+                  media="(min-width:465px)"
+                  srcset="
+                    https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_S.png
+                  "
+                />
+                <img
+                  src="https://eohokkaido.org/wp-content/themes/eohokkaido/img/map_S.png"
+                  alt="map location"
+                  style="width: auto"
+                />
+              </picture>
+              <div class="color-mean-grup">
+                <div class="color-mean">
+                  <div class="color-mean-item color-location-1">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-black">GLOBAL</h3>
+                      <p class="mean-name">Tokyo Metropolitan</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-2">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-orange">近　畿</h3>
-                    <p class="mean-name">Osaka</p>
-                    <p class="mean-name">Kyoto</p>
+                  <div class="color-mean-item color-location-2">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-orange">近　畿</h3>
+                      <p class="mean-name">Osaka</p>
+                      <p class="mean-name">Kyoto</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-3">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-yelow">北 日 本</h3>
-                    <p class="mean-name">North Japan</p>
+                  <div class="color-mean-item color-location-3">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-yelow">北 日 本</h3>
+                      <p class="mean-name">North Japan</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-4">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-blue">中 国 / 四 国</h3>
-                    <p class="mean-name">Setouchi</p>
+                  <div class="color-mean-item color-location-4">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-blue">中 国 / 四 国</h3>
+                      <p class="mean-name">Setouchi</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-5">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-red">関　東</h3>
-                    <p class="mean-name">Tokyo Central</p>
-                    <p class="mean-name">Tokyo Platinum</p>
-                    <p class="mean-name">Tokyo West</p>
+                  <div class="color-mean-item color-location-5">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-red">関　東</h3>
+                      <p class="mean-name">Tokyo Central</p>
+                      <p class="mean-name">Tokyo Platinum</p>
+                      <p class="mean-name">Tokyo West</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-6">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-red-orange">九　州</h3>
-                    <p class="mean-name">Fukuoka</p>
+                  <div class="color-mean-item color-location-6">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-red-orange">九　州</h3>
+                      <p class="mean-name">Fukuoka</p>
+                    </div>
                   </div>
-                </div>
-                <div class="color-mean-item color-location-7">
-                  <div class="g-location">
-                    <h3 class="head-name head-name-pink">中　部</h3>
-                    <p class="mean-name">Nagoya</p>
+                  <div class="color-mean-item color-location-7">
+                    <div class="g-location">
+                      <h3 class="head-name head-name-pink">中　部</h3>
+                      <p class="mean-name">Nagoya</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -430,6 +432,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="infor-show d-none">
+        <div class="show-member"></div>
       </div>
     </div>
 

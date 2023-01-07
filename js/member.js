@@ -114,6 +114,44 @@ const renderMember = (memberData) => {
 
 ElMember.innerHTML = renderMember(allMember);
 
+const ShowMember = document.querySelector(".show-member");
+const InforShow = document.querySelector(".infor-show");
+
 const handleClick = (id) => {
   const memberSeleted = allMember.find((member) => member.id === id);
+  InforShow.classList.toggle("d-none");
+
+  ShowMember.innerHTML = `
+  <div class="d-flex flex-wrap">
+      <div class="col-lg-4 col-6 m-auto ">
+        <div class="p-1">
+          <div class="member-img">
+            <img
+              class="image-member"
+              src="${memberSeleted.img}"
+              alt="${memberSeleted.name}"
+            />
+            <div class="member-name">
+              <p class="text-member">${memberSeleted.name}</p>
+            </div>
+          </div>
+          <div class="g-text-member">
+            <p class="member-ct">${memberSeleted.content}</p>
+            <h1 class="member-hd">${memberSeleted.title}</h1>
+            <p class"member-ct" style="color:#ff335f;  text-decoration: underline;  cursor: pointer; padding-top:10px;">${memberSeleted.link}</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-8 col-12">
+      <div class="close-infor" onclick=handleClickHide()>X</div>
+        <div class="text-mean-member">
+          <p >${memberSeleted.pys}</p>
+        </div>
+    </div>
+</div>
+  `;
+};
+
+const handleClickHide = () => {
+  InforShow.classList.toggle("d-none");
 };
