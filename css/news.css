@@ -1,0 +1,36 @@
+.news {
+  padding: 92px 0;
+  background-color: #0c0c31;
+}
+.news-items {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 28px;
+}
+.day,
+.day-text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.day {
+  padding-right: 20px;
+}
+
+@media (max-width: 992px) {
+  .news {
+    padding: 62px 10px;
+  }
+  .button-about-hide-news {
+    padding-top: 28px;
+    text-align: center;
+  }
+  .day-text {
+    font-size: 1rem;
+  }
+  .day {
+    font-size: 0.8rem;
+  }
+  .news-items {
+    padding-bottom: 12px;
+  }
+}

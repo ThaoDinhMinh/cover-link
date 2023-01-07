@@ -1,0 +1,43 @@
+.join-us {
+  padding: 92px 0;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.button-join,
+.button-join-left {
+  border: 0;
+  background-color: #ff325f;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.button-join {
+  padding: 10px 40px;
+  margin-left: 5px;
+}
+.button-join-left {
+  padding: 10px 60px;
+  margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+  .join-us {
+    padding: 62px 10px;
+  }
+  .button-join,
+  .button-join-left {
+    font-size: 0.9rem;
+  }
+  .button-join {
+    padding: 10px 30px;
+    margin-left: 5px;
+  }
+  .button-join-left {
+    padding: 10px 50px;
+    margin-right: 5px;
+  }
+}
