@@ -1,0 +1,36 @@
+.inclubation {
+  padding: 92px 0;
+  background-image: url("../img/bg-incubatuon.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.inclubation-text {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-right: 6px;
+  line-height: 28px;
+}
+.about-head-inclubation {
+  letter-spacing: 3px;
+}
+.about-head-mean-inclubation {
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .inclubation {
+    padding: 64px 10px;
+  }
+  .inclubation-text {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .inclubation-right {
+    margin-top: -20px;
+  }
+  .about-head-mean-inclubation {
+    font-size: 0.9rem;
+  }
+}

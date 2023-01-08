@@ -76,6 +76,9 @@
 .close-infor:hover {
   color: rgb(62, 61, 61);
 }
+.member-ct-min {
+  font-size: 0.9rem;
+}
 
 @media (max-width: 992px) {
   .member {
@@ -102,5 +105,8 @@
   .text-mean-member {
     padding: 20px 0 0 20px;
     font-size: 0.9rem;
+  }
+  .member-ct-min {
+    font-size: 0.8rem;
   }
 }

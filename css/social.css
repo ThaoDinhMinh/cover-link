@@ -1,0 +1,27 @@
+.social-network {
+  padding: 64px 0;
+}
+.social-icon {
+  font-size: 36px;
+  margin: 10px;
+  cursor: pointer;
+}
+.bi-facebook {
+  color: #2777f1;
+}
+.bi-twitter {
+  color: #229bf0;
+}
+.bi-linkedin {
+  color: #2768b2;
+}
+
+@media (max-width: 992px) {
+  .social-network {
+    padding: 44px 0;
+  }
+  .social-icon {
+    font-size: 28px;
+    margin: 5px;
+  }
+}

@@ -123,7 +123,7 @@ const handleClick = (id) => {
 
   ShowMember.innerHTML = `
   <div class="d-flex flex-wrap">
-      <div class="col-lg-4 col-6 m-auto ">
+      <div class="col-lg-4 col-8 m-auto ">
         <div class="p-1">
           <div class="member-img">
             <img
@@ -138,7 +138,7 @@ const handleClick = (id) => {
           <div class="g-text-member">
             <p class="member-ct">${memberSeleted.content}</p>
             <h1 class="member-hd">${memberSeleted.title}</h1>
-            <p class"member-ct" style="color:#ff335f;  text-decoration: underline;  cursor: pointer; padding-top:10px;">${memberSeleted.link}</p>
+            <p class="member-ct-min" style="color:#ff335f;  text-decoration: underline;  cursor: pointer; padding-top:10px;">${memberSeleted.link}</p>
           </div>
         </div>
     </div>
