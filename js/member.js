@@ -88,7 +88,7 @@ const renderMember = (memberData) => {
   return memberData
     .map(
       (member) => `
-  <div class="col-lg-4 col-6 ">
+  <div class="col-lg-4 col-6 " style="padding:0px;" >
   <div onclick=handleClick(${member.id}) class="member-infor p-1">
     <div class="member-img">
       <img
@@ -123,8 +123,8 @@ const handleClick = (id) => {
 
   ShowMember.innerHTML = `
   <div class="d-flex flex-wrap">
-      <div class="col-lg-4 col-8 m-auto ">
-        <div class="p-1">
+      <div class="col-lg-4 col-8 m-auto" " >
+        <div class="p-1 g-item-member" >
           <div class="member-img">
             <img
               class="image-member"
